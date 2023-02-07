@@ -1,3 +1,54 @@
+/*PAGE ELEMENTS*/
 html {
   font-family: sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+/*NAVBAR*/
+.nav-mobile {
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 80vw;
+  width: 80dvw;
+  opacity: 1;
+  background-color: #abb8c3;
+}
+.close-mobile-nav {
+  font-size: 30px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+}
+.nav-desktop {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 10px 30px 10px 30px;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header {
+  padding: 0 20px 0 20px;
+}
+.title {
+  /*min-width: 100vw;
+  min-width: 100dvw;*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
